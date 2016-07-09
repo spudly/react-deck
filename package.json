@@ -33,6 +33,7 @@
     ]
   },
   "dependencies": {
+    "babel-register": "^6.9.0",
     "classnames": "^2.1.2",
     "react-card": "^2.0.0"
   },
