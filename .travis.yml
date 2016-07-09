@@ -3,11 +3,6 @@ node_js:
   - "0.12"
   - "0.11"
   - "0.10"
-  - "iojs"
-before_install:
-  - npm install -g mocha browserify standard codeclimate-test-reporter istanbul
-addons:
-  code_climate:
-    repo_token: d9ef25eb19039ae82491ee70bbfbb75ea11803e905d0005ecd83a2031c7d4182
-after_script:
-  - codeclimate < coverage/lcov.info
+  - "4"
+  - "5"
+  - "6"

@@ -4,19 +4,21 @@ Render a stack of cards with React. See also: [react-card](https://www.npmjs.com
 
 [![NPM](https://nodei.co/npm/react-deck.png)](https://www.npmjs.com/package/react-deck)
 
-[![Build Status](https://travis-ci.org/spudly/react-deck.svg?branch=master)](https://travis-ci.org/spudly/react-deck) [![Test Coverage](https://codeclimate.com/github/spudly/react-deck/badges/coverage.svg)](https://codeclimate.com/github/spudly/react-deck/coverage)
+[![Build Status](https://travis-ci.org/spudly/react-deck.svg?branch=master)](https://travis-ci.org/spudly/react-deck)
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard) [![Code Climate](https://codeclimate.com/github/spudly/react-deck/badges/gpa.svg)](https://codeclimate.com/github/spudly/react-deck)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 [![Dependencies](https://david-dm.org/spudly/react-deck.svg)](https://david-dm.org/spudly/react-deck) [![DevDependencies](https://david-dm.org/spudly/react-deck/dev-status.svg)](https://david-dm.org/spudly/react-deck#info=devDependencies)
 
 # Usage
 
 ```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
 import {Deck} from 'react-deck'
 import {Card} from 'react-card'
 
-React.render(
+ReactDOM.render(
   <Deck>
     <Card>
       <Card.Front>1: front</Card.Front>
