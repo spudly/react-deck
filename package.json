@@ -1,6 +1,6 @@
 {
   "name": "react-deck",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Render a deck of cards with react",
   "main": "lib/Deck.js",
   "scripts": {
