@@ -1,6 +1,5 @@
 {
   "name": "react-deck",
-  "version": "2.0.1",
   "description": "Render a deck of cards with react",
   "main": "lib/Deck.js",
   "scripts": {
@@ -8,11 +7,12 @@
     "build": "babel src --out-dir lib",
     "build:demo": "browserify -t [ babelify --presets [ es2015 react stage-0 ] ] demo/demo.js > demo/demo_build.js",
     "prepublish": "npm run build",
-    "lint": "standard src && standard test"
+    "lint": "standard src && standard test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spudly/react-deck.git"
+    "url": "https://github.com/spudly/react-deck.git"
   },
   "keywords": [
     "react",
@@ -51,7 +51,8 @@
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "sinon": "^1.15.4",
-    "standard": "^7.1.2"
+    "standard": "^7.1.2",
+    "semantic-release": "^4.3.5"
   },
   "peerDependencies": {
     "react": "^15.2.1"
