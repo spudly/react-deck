@@ -1,14 +1,12 @@
 # react-deck
 
-Render a stack of cards with React. See also: [react-card](https://www.npmjs.com/package/react-deck)
-
 [![NPM](https://nodei.co/npm/react-deck.png)](https://www.npmjs.com/package/react-deck)
 
 [![Build Status](https://travis-ci.org/spudly/react-deck.svg?branch=master)](https://travis-ci.org/spudly/react-deck)
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-
 [![Dependencies](https://david-dm.org/spudly/react-deck.svg)](https://david-dm.org/spudly/react-deck) [![DevDependencies](https://david-dm.org/spudly/react-deck/dev-status.svg)](https://david-dm.org/spudly/react-deck#info=devDependencies)
+
+Render a stack of cards with React. See also: [react-card](https://www.npmjs.com/package/react-deck)
 
 # Usage
 
