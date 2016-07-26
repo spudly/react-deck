@@ -2,7 +2,7 @@ import React from 'react';
 import validateChildren from './validateChildren';
 import Card from 'react-card';
 
-const Deck = ({ children }) => (
+const Deck = ({children}) => (
   <ul className="deck">
     {React.Children.map(children, child => <li>{child}</li>)}
   </ul>

@@ -1,9 +1,9 @@
 import Card from 'react-card';
-import { assert } from 'chai';
+import {assert} from 'chai';
 import React from 'react';
 import validateChildren from '../src/validateChildren';
 
-const { isDefined, isUndefined, instanceOf, strictEqual } = assert;
+const {isDefined, isUndefined, instanceOf, strictEqual} = assert;
 
 const tests = {
 
