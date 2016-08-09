@@ -1,9 +1,9 @@
-import Card from 'react-card';
 import {assert} from 'chai';
+import Card from 'react-card';
 import React from 'react';
 import validateChildren from '../src/validateChildren';
 
-const {isDefined, isUndefined, instanceOf, strictEqual} = assert;
+const {isDefined, isNull, instanceOf, strictEqual} = assert;
 
 const tests = {
 
@@ -12,9 +12,9 @@ const tests = {
     'should return an error if any children are non-cards': () => {
       const props = {
         children: [
-          <Card />,
+          <Card key="0" />,
           'foo',
-          <Card />,
+          <Card key="1" />,
         ],
       };
       const error = validateChildren(props, 'children', 'foo');
@@ -28,12 +28,12 @@ const tests = {
       );
     },
 
-    'should return undefined if all children are cards': () => {
+    'should return null if all children are cards': () => {
       const props = {
-        children: [<Card />, <Card />],
+        children: [<Card key="0" />, <Card key="1" />],
       };
       const error = validateChildren(props, 'children', 'foo');
-      isUndefined(error);
+      isNull(error);
     },
 
   },

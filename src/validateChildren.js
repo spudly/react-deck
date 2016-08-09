@@ -1,5 +1,5 @@
-import React from 'react';
 import Card from 'react-card';
+import React from 'react';
 import ReactElement from 'react/lib/ReactElement';
 
 const validateChildren = (props, propName, componentName) => {
@@ -20,7 +20,7 @@ const validateChildren = (props, propName, componentName) => {
     );
   }
 
-  return undefined;
+  return null;
 };
 
 export default validateChildren;
