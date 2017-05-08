@@ -51,7 +51,7 @@
     "nyc": "^8.1.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^6.3.6"
   },
   "peerDependencies": {
     "react": "^15.2.1"
